@@ -1,8 +1,5 @@
 package com.easyya.demo.user.controller;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.easyya.demo.user.entity.User;
 import com.easyya.demo.user.mapper.UserMapper;
 import com.github.pagehelper.PageHelper;
