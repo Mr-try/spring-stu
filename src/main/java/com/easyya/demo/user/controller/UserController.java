@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@Tag(name="test user")
+@Tag(name="用户管理")
 @RestController
 @RequestMapping("/user")
 public class UserController {
@@ -25,6 +25,7 @@ public class UserController {
     return  userMapper.selectById(id);
   }
 
+  @Operation(summary = "获取用户列表")
   @GetMapping("/list")
   public PageInfo<User> getUserList(
     @RequestParam(name="pageNo",defaultValue = "1") Integer pageNo,
@@ -35,6 +36,7 @@ public class UserController {
     return  new PageInfo<User>(list);
   }
 
+  @Operation(summary = "添加用户")
   @PostMapping("/add")
   public String setUser(@RequestBody User user){
     userMapper.insert(user);

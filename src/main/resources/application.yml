@@ -1,6 +1,5 @@
 # springdoc-openapi项目配置
 
-
 springdoc:
   swagger-ui:
     path: /swagger-ui.html
@@ -11,7 +10,7 @@ springdoc:
   group-configs:
     - group: 'default'
       paths-to-match: '/**'
-      packages-to-scan: com.easyya.demo.user.controller
+      packages-to-scan: com.easyya.demo
 # knife4j的增强配置，不需要增强可以不配
 knife4j:
   enable: true
@@ -26,10 +25,17 @@ spring:
     username: root
     password: anywhere
     url: jdbc:mysql://localhost:3306/blog?useSSL=false&useUnicode=true&characterEncoding=UTF-8
-  data:
-    redis:
+  redis:
       host: localhost
       port: 6397
       password: anywhere
       database: 0
 
+application:
+  name: prod环境 name
+  version: prod环境 version
+developer:
+  name: prod环境 name
+  website: prod环境 website
+  qq: prod环境 qq
+  phone-number: prod环境 phone-number

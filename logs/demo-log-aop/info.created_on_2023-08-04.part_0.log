@@ -1,0 +1,74 @@
+2023-08-04 16:30:25,697 [main] INFO  [com.easyya.demo.DemoApplication] StartupInfoLogger.java:51 - Starting DemoApplication using Java 20.0.2 with PID 53696 (/Users/try/IdeaProjects/demo/target/classes started by try in /Users/try/IdeaProjects/demo)
+2023-08-04 16:30:25,699 [main] INFO  [com.easyya.demo.DemoApplication] SpringApplication.java:634 - No active profile set, falling back to 1 default profile: "default"
+2023-08-04 16:30:26,680 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-04 16:30:26,683 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:138 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-04 16:30:26,710 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:208 - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-08-04 16:30:27,478 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8888 (http)
+2023-08-04 16:30:27,486 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2023-08-04 16:30:27,487 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-04 16:30:27,724 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2023-08-04 16:30:27,727 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:291 - Root WebApplicationContext: initialization completed in 1930 ms
+2023-08-04 16:30:30,402 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8888 (http) with context path ''
+2023-08-04 16:30:30,417 [main] INFO  [com.easyya.demo.DemoApplication] StartupInfoLogger.java:57 - Started DemoApplication in 5.362 seconds (process running for 6.064)
+2023-08-04 16:30:40,511 [http-nio-8888-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04 16:30:40,512 [http-nio-8888-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:532 - Initializing Servlet 'dispatcherServlet'
+2023-08-04 16:30:40,516 [http-nio-8888-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:554 - Completed initialization in 3 ms
+2023-08-04 16:32:00,493 [http-nio-8888-exec-10] WARN  [o.s.w.s.m.support.DefaultHandlerExceptionResolver] AbstractHandlerExceptionResolver.java:207 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-08-04 16:32:05,867 [http-nio-8888-exec-5] INFO  [com.easyya.demo.aop.controller.aopController] aopController.java:37 - {"id":2,"name":"try2"}
+2023-08-04 18:01:12,771 [main] INFO  [com.easyya.demo.DemoApplication] StartupInfoLogger.java:51 - Starting DemoApplication using Java 20.0.2 with PID 58704 (/Users/try/IdeaProjects/demo/target/classes started by try in /Users/try/IdeaProjects/demo)
+2023-08-04 18:01:12,773 [main] INFO  [com.easyya.demo.DemoApplication] SpringApplication.java:634 - No active profile set, falling back to 1 default profile: "default"
+2023-08-04 18:01:13,819 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-04 18:01:13,823 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:138 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-04 18:01:13,853 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:208 - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-08-04 18:01:14,630 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8888 (http)
+2023-08-04 18:01:14,638 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2023-08-04 18:01:14,638 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-04 18:01:14,869 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2023-08-04 18:01:14,874 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:291 - Root WebApplicationContext: initialization completed in 2022 ms
+2023-08-04 18:01:17,551 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8888 (http) with context path ''
+2023-08-04 18:01:17,567 [main] INFO  [com.easyya.demo.DemoApplication] StartupInfoLogger.java:57 - Started DemoApplication in 5.437 seconds (process running for 6.321)
+2023-08-04 18:01:18,322 [http-nio-8888-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04 18:01:18,324 [http-nio-8888-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:532 - Initializing Servlet 'dispatcherServlet'
+2023-08-04 18:01:18,327 [http-nio-8888-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:554 - Completed initialization in 2 ms
+2023-08-04 18:01:36,944 [main] INFO  [com.easyya.demo.DemoApplication] StartupInfoLogger.java:51 - Starting DemoApplication using Java 20.0.2 with PID 58746 (/Users/try/IdeaProjects/demo/target/classes started by try in /Users/try/IdeaProjects/demo)
+2023-08-04 18:01:36,946 [main] INFO  [com.easyya.demo.DemoApplication] SpringApplication.java:634 - No active profile set, falling back to 1 default profile: "default"
+2023-08-04 18:01:37,948 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-04 18:01:37,951 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:138 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-04 18:01:37,982 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:208 - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-08-04 18:01:38,726 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8888 (http)
+2023-08-04 18:01:38,733 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2023-08-04 18:01:38,734 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-04 18:01:38,974 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2023-08-04 18:01:38,977 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:291 - Root WebApplicationContext: initialization completed in 1939 ms
+2023-08-04 18:01:41,315 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8888 (http) with context path ''
+2023-08-04 18:01:41,330 [main] INFO  [com.easyya.demo.DemoApplication] StartupInfoLogger.java:57 - Started DemoApplication in 5.026 seconds (process running for 5.768)
+2023-08-04 18:01:52,420 [http-nio-8888-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04 18:01:52,421 [http-nio-8888-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:532 - Initializing Servlet 'dispatcherServlet'
+2023-08-04 18:01:52,424 [http-nio-8888-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:554 - Completed initialization in 2 ms
+2023-08-04 18:02:29,168 [main] INFO  [com.easyya.demo.DemoApplication] StartupInfoLogger.java:51 - Starting DemoApplication using Java 20.0.2 with PID 58837 (/Users/try/IdeaProjects/demo/target/classes started by try in /Users/try/IdeaProjects/demo)
+2023-08-04 18:02:29,170 [main] INFO  [com.easyya.demo.DemoApplication] SpringApplication.java:634 - No active profile set, falling back to 1 default profile: "default"
+2023-08-04 18:02:30,272 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-04 18:02:30,274 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:138 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-04 18:02:30,304 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:208 - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-08-04 18:02:31,067 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8888 (http)
+2023-08-04 18:02:31,075 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2023-08-04 18:02:31,075 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-04 18:02:31,317 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2023-08-04 18:02:31,320 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:291 - Root WebApplicationContext: initialization completed in 2058 ms
+2023-08-04 18:02:33,304 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8888 (http) with context path ''
+2023-08-04 18:02:33,324 [main] INFO  [com.easyya.demo.DemoApplication] StartupInfoLogger.java:57 - Started DemoApplication in 4.794 seconds (process running for 5.505)
+2023-08-04 18:02:33,436 [http-nio-8888-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04 18:02:33,437 [http-nio-8888-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:532 - Initializing Servlet 'dispatcherServlet'
+2023-08-04 18:02:33,439 [http-nio-8888-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:554 - Completed initialization in 1 ms
+2023-08-04 18:23:40,555 [main] INFO  [com.easyya.demo.DemoApplication] StartupInfoLogger.java:51 - Starting DemoApplication using Java 20.0.2 with PID 60659 (/Users/try/IdeaProjects/demo/target/classes started by try in /Users/try/IdeaProjects/demo)
+2023-08-04 18:23:40,557 [main] INFO  [com.easyya.demo.DemoApplication] SpringApplication.java:634 - No active profile set, falling back to 1 default profile: "default"
+2023-08-04 18:23:41,510 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:291 - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-08-04 18:23:41,513 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:138 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-08-04 18:23:41,548 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:208 - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2023-08-04 18:23:42,281 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:108 - Tomcat initialized with port(s): 8888 (http)
+2023-08-04 18:23:42,287 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2023-08-04 18:23:42,288 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-04 18:23:42,358 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2023-08-04 18:23:42,361 [main] INFO  [o.s.b.w.s.c.ServletWebServerApplicationContext] ServletWebServerApplicationContext.java:291 - Root WebApplicationContext: initialization completed in 1725 ms
+2023-08-04 18:23:44,839 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:220 - Tomcat started on port(s): 8888 (http) with context path ''
+2023-08-04 18:23:44,854 [main] INFO  [com.easyya.demo.DemoApplication] StartupInfoLogger.java:57 - Started DemoApplication in 4.814 seconds (process running for 10.463)
